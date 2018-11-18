@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"testing"
 
-	_ "github.com/lib/pq"
+	_ "github.com/cobinhood/pq"
 	"github.com/stretchr/testify/require"
 )
 

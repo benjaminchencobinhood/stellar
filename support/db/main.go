@@ -22,7 +22,7 @@ import (
 	// Enable mysql
 	_ "github.com/go-sql-driver/mysql"
 	// Enable postgres
-	_ "github.com/lib/pq"
+	_ "github.com/cobinhood/pq"
 )
 
 // Conn represents a connection to a single database.

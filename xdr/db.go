@@ -3,7 +3,8 @@ package xdr
 import (
 	"errors"
 	"fmt"
-	"github.com/lib/pq"
+
+	"github.com/cobinhood/pq"
 )
 
 // This file contains implementations of the sql.Scanner interface for stellar xdr types
