@@ -8,16 +8,16 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/stellar/go/address"
-	b "github.com/stellar/go/build"
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/protocols/federation"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/address"
+	b "github.com/benjaminchencobinhood/stellar/build"
+	"github.com/benjaminchencobinhood/stellar/clients/horizon"
+	"github.com/benjaminchencobinhood/stellar/protocols/compliance"
+	"github.com/benjaminchencobinhood/stellar/protocols/federation"
+	shared "github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared"
+	"github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared/protocols/bridge"
+	callback "github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 // Payment implements /payment endpoint

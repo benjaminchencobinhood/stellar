@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	horizonContext "github.com/stellar/go/services/horizon/internal/context"
-	"github.com/stellar/go/support/log"
+	horizonContext "github.com/benjaminchencobinhood/stellar/services/horizon/internal/context"
+	"github.com/benjaminchencobinhood/stellar/support/log"
 )
 
 func RequestFromContext(ctx context.Context) *http.Request {

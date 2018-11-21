@@ -3,9 +3,9 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/paths"
+	"github.com/benjaminchencobinhood/stellar/amount"
+	"github.com/benjaminchencobinhood/stellar/protocols/horizon"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/paths"
 )
 
 // PopulatePath converts the paths.Path into a Path

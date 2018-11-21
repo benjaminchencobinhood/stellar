@@ -5,7 +5,7 @@ import (
 
 	"context"
 
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 // ResultProvider represents an abstract store that can lookup Result objects

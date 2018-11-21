@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/core"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 // pathNode represents a path as a linked list pointing from source to destination

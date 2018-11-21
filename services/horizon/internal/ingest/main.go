@@ -8,10 +8,10 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/support/db"
-	ilog "github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/core"
+	"github.com/benjaminchencobinhood/stellar/support/db"
+	ilog "github.com/benjaminchencobinhood/stellar/support/log"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 var log = ilog.DefaultLogger.WithField("service", "ingest")

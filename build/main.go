@@ -11,9 +11,9 @@ package build
 import (
 	"math"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/amount"
+	"github.com/benjaminchencobinhood/stellar/network"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 const (

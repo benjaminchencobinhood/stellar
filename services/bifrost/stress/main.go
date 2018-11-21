@@ -7,8 +7,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/support/log"
+	"github.com/benjaminchencobinhood/stellar/clients/horizon"
+	"github.com/benjaminchencobinhood/stellar/support/log"
 )
 
 const satsInBtc = 100000000

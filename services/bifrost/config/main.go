@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/stellar/go/keypair"
+	"github.com/benjaminchencobinhood/stellar/keypair"
 )
 
 type Config struct {

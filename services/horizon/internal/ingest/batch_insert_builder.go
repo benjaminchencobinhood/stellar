@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
+	"github.com/benjaminchencobinhood/stellar/support/db"
+	"github.com/benjaminchencobinhood/stellar/support/errors"
 )
 
 func (b *BatchInsertBuilder) init() {

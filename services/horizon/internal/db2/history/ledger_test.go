@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/test"
 )
 
 func TestLedgerQueries(t *testing.T) {

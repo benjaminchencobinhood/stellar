@@ -22,13 +22,13 @@ import (
 // Unmarshal reads an xdr element from `r` into `v`.
 func Unmarshal(r io.Reader, v interface{}) (int, error) {
 	// delegate to xdr package's Unmarshal
-	return xdr.Unmarshal(r, v)
+	return xdr3.Unmarshal(r, v)
 }
 
 // Marshal writes an xdr element `v` into `w`.
 func Marshal(w io.Writer, v interface{}) (int, error) {
 	// delegate to xdr package's Marshal
-	return xdr.Marshal(w, v)
+	return xdr3.Marshal(w, v)
 }
 
 // Value is an XDR Typedef defines as:

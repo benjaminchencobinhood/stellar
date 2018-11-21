@@ -10,7 +10,7 @@ go:
 - '1.10'
 - '1.11'
 - tip
-go_import_path: github.com/stellar/go
+go_import_path: github.com/benjaminchencobinhood/stellar
 install:
 - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 script:

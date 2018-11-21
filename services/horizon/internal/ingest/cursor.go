@@ -3,10 +3,10 @@ package ingest
 import (
 	"time"
 
-	"github.com/stellar/go/meta"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/meta"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/core"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/toid"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 // BeforeAndAfter loads the ledger entry for `target` before the current

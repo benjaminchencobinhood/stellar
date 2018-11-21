@@ -3,9 +3,9 @@ package bridge
 import (
 	"encoding/base64"
 
-	b "github.com/stellar/go/build"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
+	b "github.com/benjaminchencobinhood/stellar/build"
+	shared "github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared"
+	"github.com/benjaminchencobinhood/stellar/services/internal/bridge-compliance-shared/http/helpers"
 )
 
 // ManageDataOperationBody represents manage_data operation

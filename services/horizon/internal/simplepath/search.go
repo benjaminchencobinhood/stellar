@@ -1,9 +1,9 @@
 package simplepath
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/xdr"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/core"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/paths"
+	"github.com/benjaminchencobinhood/stellar/xdr"
 )
 
 // MaxPathLength is a maximum path length as defined in XDR file (includes source and

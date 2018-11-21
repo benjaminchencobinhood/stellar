@@ -3,10 +3,10 @@ package ingest
 import (
 	"testing"
 
-	"github.com/stellar/go/network"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/benjaminchencobinhood/stellar/network"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/core"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/ledger"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/test"
 )
 
 func TestIngest_Kahuna1(t *testing.T) {

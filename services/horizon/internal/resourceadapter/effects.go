@@ -3,11 +3,11 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/protocols/horizon/effects"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/db2/history"
+	"github.com/benjaminchencobinhood/stellar/services/horizon/internal/httpx"
+	"github.com/benjaminchencobinhood/stellar/support/render/hal"
+	"github.com/benjaminchencobinhood/stellar/protocols/horizon/base"
+	"github.com/benjaminchencobinhood/stellar/protocols/horizon/effects"
 )
 
 
